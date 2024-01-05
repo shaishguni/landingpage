@@ -1,34 +1,20 @@
 import React from 'react';
-import img2 from '../../../public/img2.jpg'
+import about from '../../../public/about.png'
 import Image from 'next/image'
 const About = () => {
   return (
-    <section className="relative py-12">
+    <section className="relative pt-36 py-12">
       {/* Irregular shape background */}
-      <div className="absolute inset-0 overflow-hidden ">
-        <div className="absolute inset-0 overflow-hidden">
-          <svg
-            className="absolute bottom-full"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1440 320"
-          >
-            <path
-              fill="#FFFFFF"
-              fillOpacity="1"
-              d="M0,160L48,170.7C96,181,192,203,288,197.3C384,192,480,160,576,144C672,128,768,128,864,133.3C960,139,1056,149,1152,144C1248,139,1344,117,1392,106.7L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
-            ></path>
-          </svg>
-        </div>
-      </div>
+      
       {/* Content */}
       <div className="container mx-auto relative z-10 px-4 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between">
           <div className="lg:w-1/2 lg:pr-8 mb-8 lg:mb-0">
             {/* Replace 'your_image_path' with your image file path */}
             <Image
-              src={img2}
-              alt="Your Image Alt Text"
-              className="rounded-lg shadow-lg"
+              src={about}
+              alt="about image"
+              className="rounded-lg  shadow-lg"
             />
           </div>
           <div className="lg:w-1/2">

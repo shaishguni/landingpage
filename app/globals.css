@@ -1,21 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
-
-*{
+ *{
     text-size-adjust: 100%;
     font-feature-settings: normal;
-   font-family: 'Roboto', sans-serif;
     font-variation-settings: normal;
-    line-height: 1.5;
+    line-height: 2;
     tab-size: 4;
-}
+   
+    
+} 
 
-p{
-    font-size: medium;
-}
+
 
 ::selection {
   p,h1,h2,h3,h4,h5,h6{text-decoration-color:red;}
 }
+
+
