@@ -52,7 +52,7 @@ export default function Navbar() {
           </Link>
           <Link href='/blog'>
             <p className='text-gray-700 hover:text-indigo-500 cursor-pointer p-2 transition-all duration-300'>
-             Pricing
+             Portfolio
             </p>
           </Link>
           <Link href='/contact'>
@@ -81,7 +81,7 @@ export default function Navbar() {
           <p className=' hover:text-indigo-500 cursor-pointer'>Services</p>
         </Link>
         <Link href='/blog'>
-          <p className=' hover:text-indigo-500 cursor-pointer'>Pricing</p>
+          <p className=' hover:text-indigo-500 cursor-pointer'>Portfolio</p>
         </Link>
         <Link href='/contact'>
           <p className=' hover:text-indigo-500 cursor-pointer'>Join Us</p>
