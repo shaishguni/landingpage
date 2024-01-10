@@ -45,18 +45,18 @@ export default function Navbar() {
               Home
             </p>
           </Link>
-          <Link href='/services'>
+          <Link href='#about'>
             <p className='text-gray-700 hover:text-indigo-500 cursor-pointer p-2 transition-all duration-300'>
-              Services
+              About
             </p>
           </Link>
-          <Link href='/blog'>
+          <Link href='#services'>
             <p className='text-gray-700 hover:text-indigo-500 cursor-pointer p-2 transition-all duration-300'>
-             Portfolio
+             Services
             </p>
           </Link>
-          <Link href='/contact'>
-            <p className='text-gray-700 hover:text-indigo-500 cursor-pointer p-2 transition-all duration-300'>Join Us</p>
+          <Link href='#whyus'>
+            <p className='text-gray-700 hover:text-indigo-500 cursor-pointer p-2 transition-all duration-300'>Why Us?</p>
           </Link>
           <Link href='/get-started'>
             <p className='bg-lime-500 hover:bg-indigo-500 border-black hover:text-black text-white font-semibold px-4 py-2 rounded-md my-2 cursor-pointer transition-all duration-300'>
@@ -77,14 +77,14 @@ export default function Navbar() {
         <Link href='/'>
           <p className=' hover:text-indigo-500 cursor-pointer'>Home</p>
         </Link>
-        <Link href='/services'>
+        <Link href='#about'>
+          <p className=' hover:text-indigo-500 cursor-pointer'>About</p>
+        </Link>
+        <Link href='#services'>
           <p className=' hover:text-indigo-500 cursor-pointer'>Services</p>
         </Link>
-        <Link href='/blog'>
-          <p className=' hover:text-indigo-500 cursor-pointer'>Portfolio</p>
-        </Link>
-        <Link href='/contact'>
-          <p className=' hover:text-indigo-500 cursor-pointer'>Join Us</p>
+        <Link href='#whyus'>
+          <p className=' hover:text-indigo-500 cursor-pointer'>Why Us?</p>
         </Link>
       </div>
 

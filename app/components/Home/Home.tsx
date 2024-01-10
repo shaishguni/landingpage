@@ -8,6 +8,8 @@ import Stacks from './Stacks';
 import Services from './Services'
 import WhyUS from './WhyUS';
 import Portfolio from './Portfolio';
+import Contact from './Contact'
+
 
 const Home = () => {
   return (
@@ -56,7 +58,11 @@ const Home = () => {
       <section>
         <Portfolio/>
       </section>
+      <section>
+        <Contact/>
+      </section>
     </div>
+
   );
 };
 

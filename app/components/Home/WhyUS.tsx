@@ -3,7 +3,7 @@ import img2 from '../../../public/img2.jpg'
 
 const WhyUS = () => {
   return (
-    <div className=" pb-12 pt-">
+    <div className=" pb-12 pt-12" id="whyus">
          <div className=' pb-6'>
             <h1 className="italic text-2xl ">WHY US? </h1>
           </div>

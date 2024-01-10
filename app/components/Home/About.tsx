@@ -3,11 +3,11 @@ import about from '../../../public/about.png'
 import Image from 'next/image'
 const About = () => {
   return (
-    <section className="relative pt-36 py-12">
+    <section id="about" className="  relative pt-36 py-12">
       {/* Irregular shape background */}
       
       {/* Content */}
-      <div className="container mx-auto relative z-10 px-4 lg:px-8">
+      <div className=" about container mx-auto relative z-10 px-4 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between">
           <div className="lg:w-1/2 lg:pr-8 mb-8 lg:mb-0">
             {/* Replace 'your_image_path' with your image file path */}

@@ -7,30 +7,19 @@ const Portfolio = () => {
       id: 1, 
       title: "Reach Me", 
       description: "A previously made startup by us.",
-      imageUrl:"../../../public/reachme.png",
+      imageUrl:"https://raw.githubusercontent.com/shaishguni/landingpage/master/public/reachme.png",
     },
     { 
       id: 2, 
-      title: "Project 2", 
-      description: "Description of project 2.",
-      imageUrl: "https://via.placeholder.com/150"
+      title: "React Dictonary", 
+      description: "An API based react dictonary",
+      imageUrl: "https://raw.githubusercontent.com/shaishguni/landingpage/master/public/reactdict.png"
     },
-    { 
-      id: 3, 
-      title: "Project 3", 
-      description: "Description of project 3.",
-      imageUrl: "https://via.placeholder.com/150"
-    },
-    { 
-      id: 4, 
-      title: "Project 4", 
-      description: "Description of project 4.",
-      imageUrl: "https://via.placeholder.com/150"
-    },
+    
   ];
 
   return (
-    <div className="container mx-auto px-4 pb-8 mb-8 flex flex-col md:flex-row items-center">
+    <div className="container  mx-auto px-4 pb-8 mb-8 flex flex-col md:flex-row items-center">
       <div className="md:w-1/2 md:pr-8">
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold">Our Portfolio</h1>
@@ -41,10 +30,10 @@ const Portfolio = () => {
       <div className="md:w-1/2 md:pl-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
           {portfolioItems.map(item => (
-            <div key={item.id} className="shadow-lg rounded-lg p-4 flex flex-col items-center">
-              <img src={item.imageUrl} alt={item.title} className="w-32 h-32 mb-4 rounded object-cover"/>
-              <h2 className="text-2xl font-semibold">{item.title}</h2>
-              <p className="mt-2 text-center">{item.description}</p>
+            <div key={item.id} className="shadow-lg transition-all duration-300 ease-in-out hover:bg-purple-100 rounded-lg p-4 flex flex-col items-center">
+              <img src={item.imageUrl} alt={item.title} className="w-32 transition-all duration-300 ease-in-out hover:bg-purple-100 h-32 mb-4 rounded object-cover"/>
+              <h2 className="text-2xl transition-all duration-300 ease-in-out hover:bg-purple-100 font-semibold">{item.title}</h2>
+              <p className="mt-2 transition-all duration-300 ease-in-out hover:bg-purple-100 text-center">{item.description}</p>
             </div>
           ))}
         </div>
