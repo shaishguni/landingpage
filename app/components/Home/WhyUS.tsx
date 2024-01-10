@@ -1,5 +1,5 @@
 import Image from "next/image"
-import img2 from '../../../public/img2.jpg'
+import home from '../../../public/home.png'
 
 const WhyUS = () => {
   return (
@@ -18,7 +18,7 @@ const WhyUS = () => {
         </div>
         
         <div className="lg:w-1/2  ">
-          <Image src={img2} alt="home image" width={500} height={450} layout='responsive' className="rounded-lg w-full h-full bg-cover bg-center  shadow-lg" />
+          <Image src={home} alt="home image" width={500} height={450} layout='responsive' className="rounded-lg w-full h-full bg-cover bg-center  shadow-lg" />
         </div>
       </section>
     </div>

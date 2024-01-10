@@ -36,8 +36,7 @@ Ready to get started or need help? Click below to explore our solutions or conta
                 Get a Quote
               </button>
               <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 px-6 py-3 rounded-md">
-                Book a meeting
-              </button>
+              <a href="https://calendly.com/gunishaish/30min">Book a Meeting</a></button>
             </div>
           </div>
         </div>
