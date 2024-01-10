@@ -32,6 +32,6 @@ const config: Config = {
       // => @media (min-width: 1536px) { ... }
     }
   },
-  plugins: [],
+ plugins: [require('tailwindcss/nesting')],
 }
 export default config

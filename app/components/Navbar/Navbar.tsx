@@ -11,12 +11,12 @@ export default function Navbar() {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-
+// bg-gradient-to-l from-red-200 via-red-300 to-yellow-200
   return (
-    <nav className='fixed top-0 left-0 w-full z-50 shadow-violet-900 text-white bg-gradient-to-l from-red-200 via-red-300 to-yellow-200 flex flex-col md:flex-row items-center justify-between p-4 md:px-8 pt-5  mt-0 '>
+    <nav className='fixed top-0 left-0 w-full z-50 shadow-violet-900 text-white bg-gray-800  flex flex-col md:flex-row items-center justify-between p-4 md:px-8 pt-5  mt-0 '>
       {/* Logo */}
       
-      <div className='flex items-center    justify-between w-full md:w-auto'>
+      <div className='flex items-center justify-between w-full md:w-auto'>
         <Link href='/'>
           <p className='cursor-pointer  bg-cover'>
             <Image src={img} alt='logo' width={200} height={200} />
@@ -37,7 +37,7 @@ export default function Navbar() {
 
       {/* Mobile Side Navigation */}
       <div
-        className={`md:hidden ${isOpen ? 'block' : 'hidden'} w-full mt-4  bg-gradient-to-l from-red-200 via-red-300 to-yellow-200 text-white rounded-md transition-all duration-500 ease-in-out`}
+        className={`md:hidden ${isOpen ? 'block' : 'hidden'} w-full mt-4 bg-gray-80 text-white rounded-md transition-all duration-500 ease-in-out`}
       >
         <div className='flex flex-col   items-centre'>
           <Link href='/'>
@@ -96,7 +96,7 @@ export default function Navbar() {
           </p>
         </Link>
         <Link href='/learn-more'>
-          <p className='  bg-amber-400 border border-blue-500 text-blue-500 hover:bg-indigo-500 hover:text-white font-semibold px-4 py-2 rounded-md cursor-pointer'>
+          <p className='  bg-amber-400 border border-none text-blue-500 hover:bg-indigo-500 hover:text-white font-semibold px-4 py-2 rounded-md cursor-pointer'>
             Learn More
           </p>
         </Link>

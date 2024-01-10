@@ -1,13 +1,14 @@
 'use client'
-
 import Image from 'next/image';
 import Link from 'next/link';
 import About from './About';
 import img2 from '../../../public/img2.jpg';
 import Video from './Video';
 import Stacks from './Stacks';
-import Services from './Services';
+import Services from './Services'
 import WhyUS from './WhyUS';
+import Portfolio from './Portfolio';
+
 const Home = () => {
   return (
     <div>
@@ -20,7 +21,7 @@ const Home = () => {
           </p>
           <div className='flex flex-wrap justify-center lg:justify-start gap-4'>
             <Link href='/get-started'>
-              <p className='bg-green-600 hover:bg-indigo-500 transition duration-300 ease-in-out text-white font-semibold px-4 py-2 rounded-md'>
+              <p className='bg-green-600 hover:bg-indigo-500 transition duration-300 ease-in-out text-white font-semibold px-4 py-2 rounded-md scroll-m-0'>
                 Make a website in 30$
               </p>
             </Link>
@@ -43,14 +44,17 @@ const Home = () => {
       {/* <section>
         <Video/>
       </section> */}
-      <section>
+      {/* <section>
         <Stacks/>
-      </section>
-      <section className='text-white'>
+      </section> */}
+      <section >
         <Services/>
       </section>
       <section>
         <WhyUS/>
+      </section>
+      <section>
+        <Portfolio/>
       </section>
     </div>
   );
